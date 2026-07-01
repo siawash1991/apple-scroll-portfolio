@@ -1,0 +1,3 @@
+# Video frames will be placed here after extraction
+# Naming: frame-0001.webp, frame-0002.webp, ...
+# See scripts/extract-frames.sh

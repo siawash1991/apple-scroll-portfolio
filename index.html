@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="پورتفولیو شخصی با افکت اسکرول‌محور الهام‌گرفته از Apple — چهره به ربات"
+    />
+    <title>Portfolio — Face to Robot Reveal</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav glass" aria-label="ناوبری اصلی">
+      <a class="nav__logo" href="#hero">Portfolio</a>
+      <ul class="nav__links">
+        <li><a href="#about">درباره</a></li>
+        <li><a href="#projects">پروژه‌ها</a></li>
+        <li><a href="#contact">تماس</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Hero: scroll-pinned reveal (frames placeholder) -->
+      <section id="hero" class="hero" aria-label="بخش اصلی">
+        <div class="hero__sticky">
+          <div class="hero__canvas-wrap">
+            <canvas
+              id="hero-canvas"
+              class="hero__canvas"
+              aria-label="انیمیشن اسکرول چهره به ربات"
+            ></canvas>
+
+            <!-- Placeholder until video frames are ready -->
+            <div class="hero__placeholder" id="hero-placeholder">
+              <div class="hero__placeholder-face">
+                <div class="hero__half hero__half--right"></div>
+                <div class="hero__half hero__half--left"></div>
+              </div>
+              <div class="hero__placeholder-robot"></div>
+            </div>
+          </div>
+
+          <div class="hero__copy">
+            <p class="hero__eyebrow">Personal Portfolio</p>
+            <h1 class="hero__title">
+              <span class="hero__title-line">از چهره</span>
+              <span class="hero__title-line">به آینده</span>
+            </h1>
+            <p class="hero__subtitle">
+              اسکرول کنید — افکت اصلی با فریم‌های ویدیوی شما فعال می‌شود
+            </p>
+          </div>
+
+          <div class="hero__scroll-hint" aria-hidden="true">
+            <span>Scroll</span>
+            <div class="hero__scroll-line"></div>
+          </div>
+        </div>
+        <div class="hero__spacer" aria-hidden="true"></div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about">
+        <div class="section__inner">
+          <p class="section__eyebrow">درباره من</p>
+          <h2 class="section__title">سازنده، یادگیرنده، آینده‌نگر</h2>
+          <p class="section__text">
+            این وب‌سایت یک پورتفولیو تک‌صفحه‌ای است با افکت اسکرول‌محور
+            الهام‌گرفته از صفحات معرفی محصول Apple. جلوه اصلی: با اسکرول،
+            تصویر چهره به دو نیمه تقسیم شده و ربات زیر آن آشکار می‌شود —
+            استعاره‌ای از هم‌افزایی انسان و هوش مصنوعی.
+          </p>
+          <div class="about__stats">
+            <div class="about__stat glass">
+              <span class="about__stat-value">5</span>
+              <span class="about__stat-label">جلسه آموزشی</span>
+            </div>
+            <div class="about__stat glass">
+              <span class="about__stat-value">GSAP</span>
+              <span class="about__stat-label">ScrollTrigger</span>
+            </div>
+            <div class="about__stat glass">
+              <span class="about__stat-value">100%</span>
+              <span class="about__stat-label">اسکرول‌محور</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <div class="section__inner">
+          <p class="section__eyebrow">پروژه‌ها</p>
+          <h2 class="section__title">نمونه‌کارها</h2>
+          <div class="projects__grid">
+            <article class="project-card glass">
+              <div class="project-card__visual project-card__visual--1"></div>
+              <div class="project-card__body">
+                <h3>Hero Reveal Effect</h3>
+                <p>افکت اصلی Face → Robot با GSAP ScrollTrigger</p>
+                <span class="project-card__tag">In Progress</span>
+              </div>
+            </article>
+            <article class="project-card glass">
+              <div class="project-card__visual project-card__visual--2"></div>
+              <div class="project-card__body">
+                <h3>Frame Sequence</h3>
+                <p>تبدیل ویدیو به فریم‌های اسکرول‌محور</p>
+                <span class="project-card__tag">Upcoming</span>
+              </div>
+            </article>
+            <article class="project-card glass">
+              <div class="project-card__visual project-card__visual--3"></div>
+              <div class="project-card__body">
+                <h3>Responsive Polish</h3>
+                <p>بهینه‌سازی برای موبایل و تبلت</p>
+                <span class="project-card__tag">Planned</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact">
+        <div class="section__inner section__inner--narrow">
+          <p class="section__eyebrow">تماس</p>
+          <h2 class="section__title">بیایید در ارتباط باشیم</h2>
+          <p class="section__text">
+            برای همکاری، سوال، یا بازخورد — از راه‌های زیر در تماس باشید.
+          </p>
+          <div class="contact__links">
+            <a class="contact__link glass" href="mailto:hello@example.com">
+              <span class="contact__link-label">Email</span>
+              <span class="contact__link-value">hello@example.com</span>
+            </a>
+            <a
+              class="contact__link glass"
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="contact__link-label">GitHub</span>
+              <span class="contact__link-value">github.com</span>
+            </a>
+            <a
+              class="contact__link glass"
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="contact__link-label">LinkedIn</span>
+              <span class="contact__link-value">linkedin.com</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Portfolio — Built with GSAP &amp; ScrollTrigger</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
