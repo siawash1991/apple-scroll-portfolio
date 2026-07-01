@@ -4,7 +4,9 @@ Personal portfolio with an Apple-inspired scroll-driven **Face → Robot Reveal*
 
 ## Live Demo
 
-> Deploy URL will appear here after Vercel deployment.
+**Production:** https://vibecode-cursor.vercel.app
+
+**GitHub:** https://github.com/siawash1991/apple-scroll-portfolio
 
 ## Stack
 

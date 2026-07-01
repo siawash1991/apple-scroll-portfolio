@@ -8,11 +8,11 @@
 **هدف:** آماده شدن محیط کار و درک ابزارها
 
 - [ ] نصب Node.js, VS Code, Git
-- [ ] نinstall و تست Claude Code / Cursor
+- [ ] نصب و تست Claude Code / Cursor
 - [ ] ساخت اکانت GitHub
 - [ ] آشنایی با دستورات پایه Git (init, add, commit, push)
 - [ ] درک تفاوت IDE / Terminal / CLI Agent
-- [ ] ساخت یک پروژه تمرینی سimple با کمک AI Agent
+- [ ] ساخت یک پروژه تمرینی ساده با کمک AI Agent
 
 **خروجی جلسه:** محیط کاری آماده + یک ریپوی تست روی GitHub
 
